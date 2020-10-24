@@ -11,7 +11,7 @@ class Test
 Test::Test(int a) 
 {
 	x = a;
-}//конструктор 
+}
 void Test::print() const 
 { 
 	cout <<"x = "<< x << endl <<"this->x = " << this -> x<<endl <<"(*this).x= "<<(*this).x<<endl; 
