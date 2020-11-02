@@ -10,7 +10,7 @@ namespace Project3 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// Г‘ГўГ®Г¤ГЄГ  Г¤Г«Гї MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Project3 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: Г¤Г®ГЎГ ГўГјГІГҐ ГЄГ®Г¤ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г 
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// ГЋГ±ГўГ®ГЎГ®Г¤ГЁГІГј ГўГ±ГҐ ГЁГ±ГЇГ®Г«ГјГ§ГіГҐГ¬Г»ГҐ Г°ГҐГ±ГіГ°Г±Г».
 		/// </summary>
 		~MyForm()
 		{
@@ -50,14 +50,14 @@ namespace Project3 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// ГЋГЎГїГ§Г ГІГҐГ«ГјГ­Г Гї ГЇГҐГ°ГҐГ¬ГҐГ­Г­Г Гї ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г .
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// Г’Г°ГҐГЎГіГҐГ¬Г»Г© Г¬ГҐГІГ®Г¤ Г¤Г«Гї ГЇГ®Г¤Г¤ГҐГ°Г¦ГЄГЁ ГЄГ®Г­Г±ГІГ°ГіГЄГІГ®Г°Г  вЂ” Г­ГҐ ГЁГ§Г¬ГҐГ­ГїГ©ГІГҐ 
+		/// Г±Г®Г¤ГҐГ°Г¦ГЁГ¬Г®ГҐ ГЅГІГ®ГЈГ® Г¬ГҐГІГ®Г¤Г  Г± ГЇГ®Г¬Г®Г№ГјГѕ Г°ГҐГ¤Г ГЄГІГ®Г°Г  ГЄГ®Г¤Г .
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -80,7 +80,7 @@ namespace Project3 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 0;
-			this->button1->Text = L"Рассчитать";
+			this->button1->Text = L"ГђГ Г±Г±Г·ГЁГІГ ГІГј";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -90,7 +90,7 @@ namespace Project3 {
 			this->button2->Name = L"button2";
 			this->button2->Size = System::Drawing::Size(75, 23);
 			this->button2->TabIndex = 1;
-			this->button2->Text = L"Выход";
+			this->button2->Text = L"Г‚Г»ГµГ®Г¤";
 			this->button2->UseVisualStyleBackColor = true;
 			this->button2->Click += gcnew System::EventHandler(this, &MyForm::button2_Click);
 			// 
@@ -122,7 +122,7 @@ namespace Project3 {
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(125, 13);
 			this->label1->TabIndex = 5;
-			this->label1->Text = L"Пройденые километры";
+			this->label1->Text = L"ГЏГ°Г®Г©Г¤ГҐГ­Г»ГҐ ГЄГЁГ«Г®Г¬ГҐГІГ°Г»";
 			// 
 			// label2
 			// 
@@ -131,7 +131,7 @@ namespace Project3 {
 			this->label2->Name = L"label2";
 			this->label2->Size = System::Drawing::Size(140, 13);
 			this->label2->TabIndex = 6;
-			this->label2->Text = L"Расход топлива на 100 км";
+			this->label2->Text = L"ГђГ Г±ГµГ®Г¤ ГІГ®ГЇГ«ГЁГўГ  Г­Г  100 ГЄГ¬";
 			// 
 			// label3
 			// 
@@ -140,7 +140,7 @@ namespace Project3 {
 			this->label3->Name = L"label3";
 			this->label3->Size = System::Drawing::Size(119, 13);
 			this->label3->TabIndex = 7;
-			this->label3->Text = L"Цена за литр бензина";
+			this->label3->Text = L"Г–ГҐГ­Г  Г§Г  Г«ГЁГІГ° ГЎГҐГ­Г§ГЁГ­Г ";
 			// 
 			// label4
 			// 
@@ -165,7 +165,7 @@ namespace Project3 {
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(111, 13);
 			this->label5->TabIndex = 10;
-			this->label5->Text = L"Количество поездок";
+			this->label5->Text = L"ГЉГ®Г«ГЁГ·ГҐГ±ГІГўГ® ГЇГ®ГҐГ§Г¤Г®ГЄ";
 			// 
 			// MyForm
 			// 
@@ -192,13 +192,13 @@ namespace Project3 {
 #pragma endregion
 	private: System::Void button1_Click(System::Object^ sender, System::EventArgs^ e) {
 		/*
-		*ЗДЕСЬ
-		*Я
-		*СОЗДАЛ
-		*ПРОГРАММУ
-		*ИЗ 
-		*ВТОРОГО
-		*ПУНКТА
+		*Р—Р”Р•РЎР¬
+		*РЇ
+		*РЎРћР—Р”РђР›
+		*РџР РћР“Р РђРњРњРЈ
+		*РР— 
+		*Р’РўРћР РћР“Рћ
+		*РџРЈРќРљРўРђ
 		*/
 		int itog;
 		double S = System::Convert::ToDouble(textBox1->Text);
@@ -206,17 +206,17 @@ namespace Project3 {
 		double c = System::Convert::ToDouble(textBox3->Text);
 		int v = System::Convert::ToDouble(textBox4->Text);
 		/*
-		*ЗДЕСЬ 
-		*Я 
-		*ДОПОЛНИЛ 
-		*ПРОГРАММУ 
-		*НА 
-		*ПОДСЧЁТ 
-		*СТОИМОСТИ
-		*ОДНОЙ 
-		*И 
-		*БОЛЕЕ 
-		*ПОЕЗДОК
+		*Р—Р”Р•РЎР¬ 
+		*РЇ 
+		*Р”РћРџРћР›РќРР› 
+		*РџР РћР“Р РђРњРњРЈ 
+		*РќРђ 
+		*РџРћР”РЎР§РЃРў 
+		*РЎРўРћРРњРћРЎРўР
+		*РћР”РќРћР™ 
+		*Р 
+		*Р‘РћР›Р•Р• 
+		*РџРћР•Р—Р”РћРљ
 		*/
 		if (v > 0)
 			itog = (S * (r / 100) * c) * v;
