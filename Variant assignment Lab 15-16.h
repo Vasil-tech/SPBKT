@@ -10,7 +10,7 @@ namespace Project4 {
 	using namespace System::Drawing;
 
 	/// <summary>
-	/// Сводка для MyForm
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm
 	/// </summary>
 	public ref class MyForm : public System::Windows::Forms::Form
 	{
@@ -19,13 +19,13 @@ namespace Project4 {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm()
 		{
@@ -46,14 +46,14 @@ namespace Project4 {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -121,7 +121,7 @@ namespace Project4 {
 			this->button1->Name = L"button1";
 			this->button1->Size = System::Drawing::Size(75, 23);
 			this->button1->TabIndex = 6;
-			this->button1->Text = L"Рассчитать";
+			this->button1->Text = L"Р Р°СЃСЃС‡РёС‚Р°С‚СЊ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm::button1_Click);
 			// 
@@ -132,7 +132,7 @@ namespace Project4 {
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(31, 13);
 			this->label4->TabIndex = 7;
-			this->label4->Text = L"Итог";
+			this->label4->Text = L"РС‚РѕРі";
 			// 
 			// MyForm
 			// 
@@ -160,7 +160,7 @@ namespace Project4 {
 		double b = System::Convert::ToDouble(textBox2->Text);
 		double c = System::Convert::ToDouble(textBox3->Text);
 		S = 1 / a + 1 / b + 1 / (c * c);
-		label4->Text = "Рассчёт по формуле = " + System::Convert::ToString(S);
+		label4->Text = "Р Р°СЃСЃС‡С‘С‚ РїРѕ С„РѕСЂРјСѓР»Рµ = " + System::Convert::ToString(S);
 	}
 };
 }
