@@ -1,0 +1,2 @@
+C:\Desktop\practic-main\practic\Vector\Debug\Vector.lib
+C:\Desktop\practic-main\practic\Vector\Debug\Vector.pdb

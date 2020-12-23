@@ -1,0 +1,8 @@
+﻿  MyForm.cpp
+C:\Desktop\practic-main\practic\MyForm.h(177,13): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  MyForm1.cpp
+C:\Desktop\practic-main\practic\MyForm1.h(215,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\Desktop\practic-main\practic\MyForm1.h(246,14): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Создание кода...
+  MyForm.obj : обнаружен модуль MSIL; для MSIL последовательная компоновка отключена; выполняется полная компоновка
+  practic.vcxproj -> C:\Desktop\practic-main\practic\Debug\practic.exe
