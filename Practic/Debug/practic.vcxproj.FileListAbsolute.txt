@@ -10,3 +10,9 @@ C:\Desktop\practic-main\practic\Debug\practic.MyForm1.resources
 C:\Desktop\practic-main\practic\Debug\practic.vcxproj.GenerateResource.cache
 C:\Desktop\practic-main\practic\Debug\practic.exe
 C:\Desktop\practic-main\practic\Debug\practic.pdb
+C:\Desktop\SPBKT-main\Practic\Debug\practic.vcxprojAssemblyReference.cache
+C:\Desktop\SPBKT-main\Practic\Debug\practic.MyForm.resources
+C:\Desktop\SPBKT-main\Practic\Debug\practic.MyForm1.resources
+C:\Desktop\SPBKT-main\Practic\Debug\practic.vcxproj.GenerateResource.cache
+C:\Desktop\SPBKT-main\Practic\Debug\practic.exe
+C:\Desktop\SPBKT-main\Practic\Debug\practic.pdb

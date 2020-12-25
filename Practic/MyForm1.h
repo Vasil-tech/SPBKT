@@ -1,4 +1,4 @@
-#pragma once
+п»ї#pragma once
 #include <thread>
 #include <vector>
 #include <iostream>
@@ -20,11 +20,11 @@ namespace practic {
 	static void SortData(int n)
 	{
 		int max, maxi = 0, j = n, temp, count;
-		for (n; n < 100; n++)
+		for (n; n < 10 + j; n++)
 		{
 			count = 0;
 			max = v[n];
-			for (int i = n; i < 100; i++)
+			for (int i = n; i < 10 + j; i++)
 			{
 				if (v[i] > max)
 				{
@@ -43,7 +43,7 @@ namespace practic {
 	}
 
 	/// <summary>
-	/// Сводка для MyForm1
+	/// РЎРІРѕРґРєР° РґР»СЏ MyForm1
 	/// </summary>
 	public ref class MyForm1 : public System::Windows::Forms::Form
 	{
@@ -52,14 +52,14 @@ namespace practic {
 		{
 			InitializeComponent();
 			//
-			//TODO: добавьте код конструктора
+			//TODO: РґРѕР±Р°РІСЊС‚Рµ РєРѕРґ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°
 			//
 		}
 		
 
 	protected:
 		/// <summary>
-		/// Освободить все используемые ресурсы.
+		/// РћСЃРІРѕР±РѕРґРёС‚СЊ РІСЃРµ РёСЃРїРѕР»СЊР·СѓРµРјС‹Рµ СЂРµСЃСѓСЂСЃС‹.
 		/// </summary>
 		~MyForm1()
 		{
@@ -81,14 +81,14 @@ namespace practic {
 
 	private:
 		/// <summary>
-		/// Обязательная переменная конструктора.
+		/// РћР±СЏР·Р°С‚РµР»СЊРЅР°СЏ РїРµСЂРµРјРµРЅРЅР°СЏ РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР°.
 		/// </summary>
 		System::ComponentModel::Container ^components;
 
 #pragma region Windows Form Designer generated code
 		/// <summary>
-		/// Требуемый метод для поддержки конструктора — не изменяйте 
-		/// содержимое этого метода с помощью редактора кода.
+		/// РўСЂРµР±СѓРµРјС‹Р№ РјРµС‚РѕРґ РґР»СЏ РїРѕРґРґРµСЂР¶РєРё РєРѕРЅСЃС‚СЂСѓРєС‚РѕСЂР° вЂ” РЅРµ РёР·РјРµРЅСЏР№С‚Рµ 
+		/// СЃРѕРґРµСЂР¶РёРјРѕРµ СЌС‚РѕРіРѕ РјРµС‚РѕРґР° СЃ РїРѕРјРѕС‰СЊСЋ СЂРµРґР°РєС‚РѕСЂР° РєРѕРґР°.
 		/// </summary>
 		void InitializeComponent(void)
 		{
@@ -136,10 +136,10 @@ namespace practic {
 			this->dataGridView1->AutoSizeColumnsMode = System::Windows::Forms::DataGridViewAutoSizeColumnsMode::AllCells;
 			this->dataGridView1->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView1->ColumnHeadersVisible = false;
-			this->dataGridView1->Location = System::Drawing::Point(47, 209);
+			this->dataGridView1->Location = System::Drawing::Point(39, 105);
 			this->dataGridView1->Name = L"dataGridView1";
 			this->dataGridView1->RowHeadersVisible = false;
-			this->dataGridView1->Size = System::Drawing::Size(407, 59);
+			this->dataGridView1->Size = System::Drawing::Size(210, 44);
 			this->dataGridView1->TabIndex = 3;
 			// 
 			// dataGridView2
@@ -147,46 +147,46 @@ namespace practic {
 			this->dataGridView2->AutoSizeColumnsMode = System::Windows::Forms::DataGridViewAutoSizeColumnsMode::AllCells;
 			this->dataGridView2->ColumnHeadersHeightSizeMode = System::Windows::Forms::DataGridViewColumnHeadersHeightSizeMode::AutoSize;
 			this->dataGridView2->ColumnHeadersVisible = false;
-			this->dataGridView2->Location = System::Drawing::Point(47, 336);
+			this->dataGridView2->Location = System::Drawing::Point(39, 268);
 			this->dataGridView2->Name = L"dataGridView2";
 			this->dataGridView2->RowHeadersVisible = false;
-			this->dataGridView2->Size = System::Drawing::Size(407, 58);
+			this->dataGridView2->Size = System::Drawing::Size(210, 44);
 			this->dataGridView2->TabIndex = 4;
 			// 
 			// button1
 			// 
-			this->button1->Location = System::Drawing::Point(209, 115);
+			this->button1->Location = System::Drawing::Point(15, 12);
 			this->button1->Name = L"button1";
-			this->button1->Size = System::Drawing::Size(118, 23);
+			this->button1->Size = System::Drawing::Size(98, 35);
 			this->button1->TabIndex = 5;
-			this->button1->Text = L"Сортируемся";
+			this->button1->Text = L"РЎРѕСЂС‚РёСЂСѓРµРјСЃСЏ";
 			this->button1->UseVisualStyleBackColor = true;
 			this->button1->Click += gcnew System::EventHandler(this, &MyForm1::button1_Click);
 			// 
 			// label4
 			// 
 			this->label4->AutoSize = true;
-			this->label4->Location = System::Drawing::Point(206, 180);
+			this->label4->Location = System::Drawing::Point(12, 89);
 			this->label4->Name = L"label4";
 			this->label4->Size = System::Drawing::Size(123, 13);
 			this->label4->TabIndex = 6;
-			this->label4->Text = L"Массив до сортировки";
+			this->label4->Text = L"РњР°СЃСЃРёРІ РґРѕ СЃРѕСЂС‚РёСЂРѕРІРєРё";
 			this->label4->Click += gcnew System::EventHandler(this, &MyForm1::label4_Click);
 			// 
 			// label5
 			// 
 			this->label5->AutoSize = true;
-			this->label5->Location = System::Drawing::Point(206, 298);
+			this->label5->Location = System::Drawing::Point(12, 252);
 			this->label5->Name = L"label5";
 			this->label5->Size = System::Drawing::Size(144, 13);
 			this->label5->TabIndex = 7;
-			this->label5->Text = L"Массив после сортировки ";
+			this->label5->Text = L"РњР°СЃСЃРёРІ РїРѕСЃР»Рµ СЃРѕСЂС‚РёСЂРѕРІРєРё ";
 			// 
 			// MyForm1
 			// 
 			this->AutoScaleDimensions = System::Drawing::SizeF(6, 13);
 			this->AutoScaleMode = System::Windows::Forms::AutoScaleMode::Font;
-			this->ClientSize = System::Drawing::Size(502, 421);
+			this->ClientSize = System::Drawing::Size(274, 328);
 			this->Controls->Add(this->label5);
 			this->Controls->Add(this->label4);
 			this->Controls->Add(this->button1);
@@ -210,47 +210,51 @@ namespace practic {
 		{
 			
 			int count = 0, i = 0, value, l = 0;
-			char* buffer = new char[300];  //буфер для хранения массива цифр
-			char* buffer2 = new char[3];     //буфер для хранения текущей цифры
-			FILE* f = fopen("numbers.txt", "r");      // открывает файл numbers.txt для чтения
-			fgets(buffer, 300, f);            //записывает в буфер для хранения массива цифры из файла
-			dataGridView1->ColumnCount = 100;        //задаёт количество столбцов для dataGridView
-			rewind(f);         //перемещает каретку в начало файла
-			while (!feof(f))     //пока не конец файла
+			char* buffer = new char[300];  //Р±СѓС„РµСЂ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РјР°СЃСЃРёРІР° С†РёС„СЂ
+			char* buffer2 = new char[3];     //Р±СѓС„РµСЂ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ С‚РµРєСѓС‰РµР№ С†РёС„СЂС‹
+			FILE* f = fopen("numbers.txt", "r");      // РѕС‚РєСЂС‹РІР°РµС‚ С„Р°Р№Р» numbers.txt РґР»СЏ С‡С‚РµРЅРёСЏ
+			fgets(buffer, 300, f);            //Р·Р°РїРёСЃС‹РІР°РµС‚ РІ Р±СѓС„РµСЂ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ РјР°СЃСЃРёРІР° С†РёС„СЂС‹ РёР· С„Р°Р№Р»Р°
+			dataGridView1->ColumnCount = 100;        //Р·Р°РґР°С‘С‚ РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚РѕР»Р±С†РѕРІ РґР»СЏ dataGridView
+
+			rewind(f);         //РїРµСЂРµРјРµС‰Р°РµС‚ РєР°СЂРµС‚РєСѓ РІ РЅР°С‡Р°Р»Рѕ С„Р°Р№Р»Р°
+			while (!feof(f))     //РїРѕРєР° РЅРµ РєРѕРЅРµС† С„Р°Р№Р»Р°
 			{
 				if (buffer[count] == '\0')             
 					break;
-				if (buffer[count] == 32)   //если текущий символ пробел
+				if (buffer[count] == 32)   //РµСЃР»Рё С‚РµРєСѓС‰РёР№ СЃРёРјРІРѕР» РїСЂРѕР±РµР»
 				{
 					i = 0;
-					value = std::atoi(buffer2);     //перевод из символа в цифру
-					v.push_back(value);      //помещение цифры в вектор
-					dataGridView1->Rows[0]->Cells[l]->Value = v[l];       //помещение данной цифры в dataGridView
-					l++;   //счётчик цифры
-					count++;   //счётчик кол-ва символов перебранных в буфере
-					for (int j = 0; j < 3; j++)   //обнуление буфера 2
+					value = std::atoi(buffer2);     //РїРµСЂРµРІРѕРґ РёР· СЃРёРјРІРѕР»Р° РІ С†РёС„СЂСѓ
+					v.push_back(value);      //РїРѕРјРµС‰РµРЅРёРµ С†РёС„СЂС‹ РІ РІРµРєС‚РѕСЂ
+					dataGridView1->Rows[0]->Cells[l]->Value = v[l];       //РїРѕРјРµС‰РµРЅРёРµ РґР°РЅРЅРѕР№ С†РёС„СЂС‹ РІ dataGridView
+					l++;   //СЃС‡С‘С‚С‡РёРє С†РёС„СЂС‹
+					count++;   //СЃС‡С‘С‚С‡РёРє РєРѕР»-РІР° СЃРёРјРІРѕР»РѕРІ РїРµСЂРµР±СЂР°РЅРЅС‹С… РІ Р±СѓС„РµСЂРµ
+					for (int j = 0; j < 3; j++)   //РѕР±РЅСѓР»РµРЅРёРµ Р±СѓС„РµСЂР° 2
 						buffer2[j] = '\0';
 					continue;
 				}
-				buffer2[i] = buffer[count];              //запись числа в буфер 2
+				buffer2[i] = buffer[count];              //Р·Р°РїРёСЃСЊ С‡РёСЃР»Р° РІ Р±СѓС„РµСЂ 2
 				count++;
 				i++;
 			}
-			fclose(f);    //закрытиен файла
-			delete[] buffer;  //удаление динамического массива
-			delete[] buffer2;   //удаление динамического массива
+			fclose(f);    //Р·Р°РєСЂС‹С‚РёРµРЅ С„Р°Р№Р»Р°
+			delete[] buffer;  //СѓРґР°Р»РµРЅРёРµ РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РјР°СЃСЃРёРІР°
+			delete[] buffer2;   //СѓРґР°Р»РµРЅРёРµ РґРёРЅР°РјРёС‡РµСЃРєРѕРіРѕ РјР°СЃСЃРёРІР°
 		}
 
-		void SortInFile()
+		void SortInFile()		//Р—Р°РїРѕР»РЅРёРµРЅРёРµ С„Р°Р№Р»Р° Рё РІС‹РІРѕРґ РІ DataGridView2 РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРЅРѕРіРѕ РјР°СЃСЃРёРІР°
 		{
-			FILE* f = fopen("numbers.txt", "w");
-			dataGridView2->ColumnCount = 100;    //выделяет 100 столбцов 
+
+			FILE* f = fopen("SortNumbers.txt", "w");
+			dataGridView2->ColumnCount = 100;
+
 			for (int i = 0; i < 100; i++)
 			{
-				fprintf(f, "%d ", v[i]);   //запись в файл сортированного массива
+				fprintf(f, "%d ", v[i]);   //Р—Р°РїРѕР»РЅСЏРµРј С‚Р°Р±Р»С–С†Сѓ СЃРѕСЂС‚С–СЂРѕРІР°РЅРЅС‹РјС– РґР°РЅРЅС‹РјС–
 				dataGridView2->Rows[0]->Cells[i]->Value = v[i];
 			}
 			fclose(f);
+
 		}
 
 #pragma endregion
@@ -265,7 +269,7 @@ namespace practic {
 		thread th8(SortData, 70);
 		thread th9(SortData, 80);
 		thread th10(SortData, 90);
-		th1.join();   //способ синхронизации
+		th1.join();   //СЃРїРѕСЃРѕР± СЃРёРЅС…СЂРѕРЅРёР·Р°С†РёРё
 		th2.join();
 		th3.join();
 		th4.join();
